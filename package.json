@@ -1,0 +1,19 @@
+{
+  "name": "Class",
+  "version": "0.0.0",
+  "description": "coffee script class system",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "coffeescript",
+    "class"
+  ],
+  "author": "Howard Yeh",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "mocha": "^1.18.2"
+  }
+}
