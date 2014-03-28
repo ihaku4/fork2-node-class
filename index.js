@@ -13,6 +13,9 @@
         }
         if (SuperConstructor) {
             Constructor.prototype = new SuperConstructor();
+            Constructor.__super__ = SuperConstructor;
+        } else {
+            Constructor.__super__ = Object;
         }
         return Constructor;
     }
